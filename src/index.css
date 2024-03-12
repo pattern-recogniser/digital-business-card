@@ -2,24 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -28,13 +10,56 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #23252C;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15.36px
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.container{
+  width: 40%;
+  margin: 0 auto;
+  background-color: #1A1B21;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
 }
 
+
+
+#root{
+  margin: 0 auto;
+}
+
+.footer{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: #161619;
+  height: 4em;
+}
+
+.footer > i{
+  color: #918E9B;
+  font-size: 2.5em;
+}
+
+.email-btn{
+  background-color: #FFFFFF;
+  color: #374151;
+  margin-right: 2em;
+}
+
+.linkedin-btn{
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+button > i {
+  color: inherit;
+  margin-right: 0.3em;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -46,23 +71,33 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.profile-pic {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.content-div{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+h1{
+  font-size: 25px;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.site{
+  margin-top: 0.5em;
+  font-size: 10.5px;
 }
